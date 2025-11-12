@@ -138,7 +138,7 @@ export default function Bai1() {
             <div className="ml-2 flex items-center">
               <p className="font-medium">Password</p>
               <input
-                className="mt-2 ml-2 py-1 px-2 border-1 rounded-xl "
+                className="mt-2 ml-2 py-1 px-2 border-1 rounded-xl text-[16px]"
                 type="password"
               />
             </div>
