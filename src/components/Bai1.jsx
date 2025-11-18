@@ -1,8 +1,12 @@
+import { Link } from "react-router-dom";
 export default function Bai1() {
   return (
     <>
       <div className="w-[80%] mx-auto my-6">
-        <h1 className="text-9xl">Hello</h1>
+        <Link to={"/"} className="hover:font-medium">
+          Home
+        </Link>
+        <h1 className="text-3xl">Hello</h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi id
           doloribus ut iste recusandae laboriosam magni perferendis accusantium
